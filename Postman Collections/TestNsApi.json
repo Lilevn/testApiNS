@@ -14208,142 +14208,6 @@
           "name": "Тесты",
           "item": [
             {
-              "name": "404/List Locked Entity Ids",
-              "event": [
-                {
-                  "listen": "test",
-                  "script": {
-                    "id": "8d1638b0-7dbe-4f93-b268-a7c4d4ebdee4",
-                    "exec": [
-                      "pm.test(\"Status code is 404\", function () {\r",
-                      "    pm.response.to.have.status(404);\r",
-                      "});"
-                    ],
-                    "type": "text/javascript"
-                  }
-                }
-              ],
-              "id": "515b3470-1b06-4869-a055-109768be9517",
-              "protocolProfileBehavior": {
-                "disableBodyPruning": true
-              },
-              "request": {
-                "method": "GET",
-                "header": [],
-                "url": "{{baseUrl}}/api/objects/lock/ids"
-              },
-              "response": [
-                {
-                  "id": "48b81b82-75c4-4af0-a0df-1fd1f9c0a202",
-                  "name": "When there are items with active locks.",
-                  "originalRequest": {
-                    "method": "GET",
-                    "header": [
-                      {
-                        "description": "Added as a part of security scheme: oauth2",
-                        "key": "Authorization",
-                        "value": "<token>"
-                      }
-                    ],
-                    "url": "{{baseUrl}}/api/objects/lock/ids"
-                  },
-                  "status": "OK",
-                  "code": 200,
-                  "_postman_previewlanguage": "json",
-                  "header": [
-                    {
-                      "key": "Content-Type",
-                      "value": "application/json"
-                    }
-                  ],
-                  "cookie": [],
-                  "responseTime": null,
-                  "body": "[\n \"d076a4f0-f6dc-8f3c-4297-e8d4fd0bf125\",\n \"b00c9515-87d5-53bc-8985-db28fe434dc9\"\n]"
-                },
-                {
-                  "id": "99a2a809-18a2-41c2-8175-112c6d4ba45f",
-                  "name": "Unauthorized",
-                  "originalRequest": {
-                    "method": "GET",
-                    "header": [
-                      {
-                        "description": "Added as a part of security scheme: oauth2",
-                        "key": "Authorization",
-                        "value": "<token>"
-                      }
-                    ],
-                    "url": "{{baseUrl}}/api/objects/lock/ids"
-                  },
-                  "status": "Unauthorized",
-                  "code": 401,
-                  "_postman_previewlanguage": "text",
-                  "header": [
-                    {
-                      "key": "Content-Type",
-                      "value": "text/plain"
-                    }
-                  ],
-                  "cookie": [],
-                  "responseTime": null,
-                  "body": ""
-                },
-                {
-                  "id": "fc3cf0b6-34cf-479f-9a2a-616f8c02abd1",
-                  "name": "Forbidden",
-                  "originalRequest": {
-                    "method": "GET",
-                    "header": [
-                      {
-                        "description": "Added as a part of security scheme: oauth2",
-                        "key": "Authorization",
-                        "value": "<token>"
-                      }
-                    ],
-                    "url": "{{baseUrl}}/api/objects/lock/ids"
-                  },
-                  "status": "Forbidden",
-                  "code": 403,
-                  "_postman_previewlanguage": "text",
-                  "header": [
-                    {
-                      "key": "Content-Type",
-                      "value": "text/plain"
-                    }
-                  ],
-                  "cookie": [],
-                  "responseTime": null,
-                  "body": ""
-                },
-                {
-                  "id": "46178a59-a9b7-4971-8c31-5900650860a2",
-                  "name": "When there are not items with active locks.",
-                  "originalRequest": {
-                    "method": "GET",
-                    "header": [
-                      {
-                        "description": "Added as a part of security scheme: oauth2",
-                        "key": "Authorization",
-                        "value": "<token>"
-                      }
-                    ],
-                    "url": "{{baseUrl}}/api/objects/lock/ids"
-                  },
-                  "status": "Not Found",
-                  "code": 404,
-                  "_postman_previewlanguage": "text",
-                  "header": [
-                    {
-                      "key": "Content-Type",
-                      "value": "text/plain"
-                    }
-                  ],
-                  "cookie": [],
-                  "responseTime": null,
-                  "body": ""
-                }
-              ]
-            },
-            {
               "name": "404/List Locked Items",
               "event": [
                 {
@@ -20046,19 +19910,19 @@
   ],
   "variable": [
     {
-      "id": "7b78238d-0736-4ff8-8479-d6cb6798cb14",
+      "id": "8edbb99c-ce05-4c72-958e-7bd3c0790ed9",
       "key": "baseUrl",
       "value": "https://dev.vmdev.n.srv/",
       "type": "string"
     },
     {
-      "id": "f9403748-7dab-4776-b1d0-aec1bdace56b",
+      "id": "87aab59c-7c14-4f65-8593-9b6919cb5c8e",
       "key": "testObj",
       "value": "cac67928-6d5e-ec11-822e-001e678a7639",
       "type": "string"
     },
     {
-      "id": "883ec390-ebca-4dde-bb20-6466a93c29c0",
+      "id": "92865225-405f-4871-b830-39f550fe004c",
       "key": "testClas",
       "value": "01a0831b-6c5e-ec11-822e-001e678a7639",
       "type": "string"
