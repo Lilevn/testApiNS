@@ -14578,14 +14578,10 @@
                   "script": {
                     "id": "78201a79-98d4-4350-b169-557f4f8d20b0",
                     "exec": [
-                      "pm.test(\"Status code is 201\", function () {\r",
-                      "    pm.response.to.have.status(201);\r",
+                      "pm.test(\"Status code is 200\", function () {\r",
+                      "    pm.response.to.have.status(200);\r",
                       "});\r",
-                      "pm.test(\"The response has all properties\", () => {\r",
-                      "    //parse the response JSON and test three properties\r",
-                      "    const responseJson = pm.response.json();\r",
-                      "    pm.expect(responseJson).to.have.lengthOf(36);\r",
-                      "});"
+                      ""
                     ],
                     "type": "text/javascript"
                   }
@@ -20050,19 +20046,19 @@
   ],
   "variable": [
     {
-      "id": "630ba32c-5e28-47da-9f16-4ef61b9a1312",
+      "id": "7b78238d-0736-4ff8-8479-d6cb6798cb14",
       "key": "baseUrl",
       "value": "https://dev.vmdev.n.srv/",
       "type": "string"
     },
     {
-      "id": "b6be87c4-dbe8-49f1-acd9-ce4fdea96566",
+      "id": "f9403748-7dab-4776-b1d0-aec1bdace56b",
       "key": "testObj",
       "value": "cac67928-6d5e-ec11-822e-001e678a7639",
       "type": "string"
     },
     {
-      "id": "34077bbe-0656-4a72-83f5-b307e34dcc73",
+      "id": "883ec390-ebca-4dde-bb20-6466a93c29c0",
       "key": "testClas",
       "value": "01a0831b-6c5e-ec11-822e-001e678a7639",
       "type": "string"
