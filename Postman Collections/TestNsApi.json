@@ -19786,19 +19786,19 @@
   ],
   "variable": [
     {
-      "id": "12f355f1-ba51-4746-9301-b6c643eb445c",
+      "id": "e30f1496-cbd0-4bfc-8e0a-f769bdacdc91",
       "key": "baseUrl",
       "value": "https://dev.vmdev.n.srv/",
       "type": "string"
     },
     {
-      "id": "9eb19b84-0fc0-4e3f-bd16-1410953ccfd4",
+      "id": "a1c01759-11f3-4128-b13a-4a3a3a68660e",
       "key": "testObj",
       "value": "cac67928-6d5e-ec11-822e-001e678a7639",
       "type": "string"
     },
     {
-      "id": "b22776d8-b116-4aaf-a58a-ac797e666695",
+      "id": "b523b323-1668-4d99-82f2-55044ae2d08b",
       "key": "testClas",
       "value": "01a0831b-6c5e-ec11-822e-001e678a7639",
       "type": "string"
