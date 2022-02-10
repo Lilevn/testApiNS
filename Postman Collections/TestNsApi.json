@@ -16422,7 +16422,29 @@
                 "header": [],
                 "url": null
               },
-              "response": []
+              "response": [
+                {
+                  "id": "4ad27743-d1c4-475d-9136-6a110f704491",
+                  "name": "New Request",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "body": {
+                      "mode": "graphql",
+                      "graphql": {
+                        "query": "",
+                        "variables": ""
+                      }
+                    },
+                    "url": "https://test12.vmdev.n.srv/"
+                  },
+                  "_postman_previewlanguage": null,
+                  "header": [],
+                  "cookie": [],
+                  "responseTime": null,
+                  "body": null
+                }
+              ]
             }
           ],
           "id": "a64d571d-0a85-4f7b-939b-c78279a765e4"
@@ -19786,19 +19808,19 @@
   ],
   "variable": [
     {
-      "id": "e30f1496-cbd0-4bfc-8e0a-f769bdacdc91",
+      "id": "b1371a04-97b4-4eb2-827f-8d71265e6d02",
       "key": "baseUrl",
       "value": "https://dev.vmdev.n.srv/",
       "type": "string"
     },
     {
-      "id": "a1c01759-11f3-4128-b13a-4a3a3a68660e",
+      "id": "b120290a-8d4a-4049-b293-428a02f6b504",
       "key": "testObj",
       "value": "cac67928-6d5e-ec11-822e-001e678a7639",
       "type": "string"
     },
     {
-      "id": "b523b323-1668-4d99-82f2-55044ae2d08b",
+      "id": "5e18b32f-e646-4db9-aaf1-c244d1b32a78",
       "key": "testClas",
       "value": "01a0831b-6c5e-ec11-822e-001e678a7639",
       "type": "string"
