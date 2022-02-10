@@ -16445,6 +16445,24 @@
                   "body": null
                 }
               ]
+            },
+            {
+              "name": "https://test12.vmdev.n.srv/api/objects/locks",
+              "id": "005ecd0b-8c36-4283-968e-a3c09b96cbb0",
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              },
+              "request": {
+                "method": "GET",
+                "header": [
+                  {
+                    "key": "accept",
+                    "value": "text/plain"
+                  }
+                ],
+                "url": "https://test12.vmdev.n.srv/api/objects/locks"
+              },
+              "response": []
             }
           ],
           "id": "a64d571d-0a85-4f7b-939b-c78279a765e4"
@@ -19808,19 +19826,19 @@
   ],
   "variable": [
     {
-      "id": "10309621-a905-413c-9180-ffada562374d",
+      "id": "f8e26fa2-3442-4a01-bcb1-75b03b158def",
       "key": "baseUrl",
       "value": "https://dev.vmdev.n.srv/",
       "type": "string"
     },
     {
-      "id": "f8486097-b09b-4203-add2-8c56c3b92595",
+      "id": "cb795d8c-d77b-433e-931e-560c3076531d",
       "key": "testObj",
       "value": "cac67928-6d5e-ec11-822e-001e678a7639",
       "type": "string"
     },
     {
-      "id": "0120fe4b-bc18-42a3-a51a-6b6865b9678e",
+      "id": "c4035ec5-88f7-4a1e-8a80-52418e87be25",
       "key": "testClas",
       "value": "01a0831b-6c5e-ec11-822e-001e678a7639",
       "type": "string"
